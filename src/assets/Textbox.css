@@ -1,0 +1,17 @@
+.textBox {
+    width: 50%; /* define a largura do campo */ 
+    position: relative;  /* cria o contexto de posicionamento do botão */ 
+  }
+  label {display:block;}
+  input {width: 100%;} /* define a largura do campo igual a largura do container */
+  input,  button {padding: 10px;}
+  button {
+    position: absolute;   
+    top: 0; 
+    right: 10px;
+    border: 0px solid white !important;
+    background-color: white !important;
+    /* posiciona o botão em relação ao container, mas
+    como o campo está exatamente contido no container
+    o posicionamento se dá também em relação ao campo */
+  }

@@ -1,0 +1,33 @@
+.head{
+    background-color: #49454f;
+    height: 84px;
+    width: 100%;
+}
+span{
+    color: white;
+    font: Roboto;
+    font-size: 16px;
+}
+
+#app{
+    background-color: #1c1b1f;
+    height: 100vh;
+}
+
+.bodyItem{
+    margin-top: 10%;
+}
+
+.title{
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.searchBar{
+    width: 70%;
+}
+
+.menuItem:hover{
+    border-style: solid;
+  border-width: 0px 0px 1px 0px;
+}
