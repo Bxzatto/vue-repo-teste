@@ -9,7 +9,11 @@
           <b-input-group class="mt-4">
             <b-form-input v-model="search"></b-form-input>
             <b-input-group-append>
-              <b-button variant="light" v-on:click="test(search)">
+              <b-button
+                class="buttonSearch"
+                variant="light"
+                v-on:click="test(search)"
+              >
                 <b-icon-search
                   style="color: black; font-weight: bold"
                 ></b-icon-search>
@@ -63,4 +67,3 @@ export default {
   },
 };
 </script>
-<style></style>
